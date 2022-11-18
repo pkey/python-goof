@@ -1,4 +1,4 @@
-bleach==2.1.4
+bleach==3.3.0
 certifi==2018.8.24
 chardet==3.0.4
 Click==7.0
@@ -38,7 +38,7 @@ parso==0.3.1
 pexpect==4.6.0
 pickleshare==0.7.5
 prometheus-client==0.3.1
-protobuf==3.6.1
+protobuf==3.18.3
 protobuf-to-dict==0.1.0
 ptyprocess==0.6.0
 Pygments==2.2.0
@@ -65,3 +65,4 @@ webencodings==0.5.1
 Werkzeug==0.14.1
 widgetsnbextension==3.4.2
 xlrd==1.1.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
